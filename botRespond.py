@@ -40,5 +40,5 @@ def getResponse(sendMsg):
     elif successCount >= 1:
         botResponsePick = random.choice(comeBacks)
     else:
-        botResponsePick = "IDKresponse"
+        botResponsePick = "I apologize if I'm unable to provide the specific information you're looking for."
     return botResponsePick
